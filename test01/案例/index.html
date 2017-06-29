@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<style>
+			html,body{
+				height: 100%; width: 100%;
+			}
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			
+			#container {
+				background:#F5F5F5;
+				margin: 0;
+				width: 100%;height: 100%;		
+				display: flex;
+				flex-flow: column;
+				justify-content: space-between;
+				
+			}
+			
+			#header {
+				background: #78909C;
+				height: 70px;
+			}
+			#wrap {
+				background: #ADD8E6;
+				/*height: 100%;*/
+				flex-grow: 1;
+			}
+			
+			#menu {
+				background: #78909C;
+				height: 150px;
+				display: flex;
+				flex-flow: row nowrap;
+				
+			}
+			
+			.menu-div {
+				background: no-repeat;
+				background-position: center;
+				width: 25%;
+				display: flex;
+				flex-flow: row nowrap;
+				justify-content: center;
+				line-height: 150px;
+			}
+			
+			#home {
+				height: 100%; width: 100%;
+				background-image:url(img/ic_add_a_photo_18pt_2x.png) ;
+			}
+			#friend {
+				height: 100%; width: 100%;
+				background-image:url(img/ic_add_a_photo_18pt_2x.png) ;
+			}
+			#moment {
+				height: 100%; width: 100%;
+				background-image:url(img/ic_add_a_photo_18pt_2x.png) ;
+			}
+			#setting {
+				height: 100%; width: 100%;
+				background-image:url(img/ic_add_a_photo_18pt_2x.png);
+			}
+			
+			
+		</style>
+		
+	</head>
+	<body>
+		
+		
+		<div id="container">
+			<div id="header">
+				
+			</div>
+			
+			<div id="wrap">
+				123123
+			</div>
+			
+			<div id="menu">
+				
+				<div id="home" class="menu-div"></div>
+				<div id="friend" class="menu-div"></div>
+				<div id="moment" class="menu-div"></div>
+				<div id="setting" class="menu-div"></div>
+				
+			</div>
+			
+		</div>
+		
+		
+	</body>
+</html>
