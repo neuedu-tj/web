@@ -1,0 +1,50 @@
+#menu {
+	/*background: #78909C;*/
+	height: 60px;
+	display: flex;
+	flex-flow: row nowrap;
+	box-shadow: 0px 1px 1px gainsboro inset;
+	opacity: .8;
+	}
+
+.menu-div {
+	background: no-repeat;
+	background-position: center;
+	width: 25%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	line-height: 150px;
+}
+.menu-div div{
+	
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	transform: scale(1.6);
+}
+
+#home {
+	height: 100%;
+	width: 100%;
+	background-image: url(img/ic_add_a_photo_18pt_2x.png);
+}
+
+#friend {
+	height: 100%;
+	width: 100%;
+	background-image: url(img/ic_add_a_photo_18pt_2x.png);
+}
+
+#moment {
+	height: 100%;
+	width: 100%;
+	background-image: url(img/ic_add_a_photo_18pt_2x.png);
+}
+
+#setting {
+	height: 100%;
+	width: 100%;
+	background-image: url(img/ic_add_a_photo_18pt_2x.png);
+}

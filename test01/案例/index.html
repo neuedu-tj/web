@@ -4,92 +4,213 @@
 		<meta charset="UTF-8">
 		<title></title>
 		
-		<style>
-			html,body{
-				height: 100%; width: 100%;
-			}
-			*{
-				padding: 0;
-				margin: 0;
-			}
-			
-			#container {
-				background:#F5F5F5;
-				margin: 0;
-				width: 100%;height: 100%;		
-				display: flex;
-				flex-flow: column;
-				justify-content: space-between;
-				
-			}
-			
-			#header {
-				background: #78909C;
-				height: 70px;
-			}
-			#wrap {
-				background: #ADD8E6;
-				/*height: 100%;*/
-				flex-grow: 1;
-			}
-			
-			#menu {
-				background: #78909C;
-				height: 150px;
-				display: flex;
-				flex-flow: row nowrap;
-				
-			}
-			
-			.menu-div {
-				background: no-repeat;
-				background-position: center;
-				width: 25%;
-				display: flex;
-				flex-flow: row nowrap;
-				justify-content: center;
-				line-height: 150px;
-			}
-			
-			#home {
-				height: 100%; width: 100%;
-				background-image:url(img/ic_add_a_photo_18pt_2x.png) ;
-			}
-			#friend {
-				height: 100%; width: 100%;
-				background-image:url(img/ic_add_a_photo_18pt_2x.png) ;
-			}
-			#moment {
-				height: 100%; width: 100%;
-				background-image:url(img/ic_add_a_photo_18pt_2x.png) ;
-			}
-			#setting {
-				height: 100%; width: 100%;
-				background-image:url(img/ic_add_a_photo_18pt_2x.png);
-			}
-			
-			
-		</style>
+		
+		
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/container.css" />
+		<link rel="stylesheet" href="css/phone-title.css" />
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/wrap.css"/>
+		<link rel="stylesheet" href="css/menu.css" />
+		
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+		
+		
 		
 	</head>
 	<body>
 		
-		
 		<div id="container">
-			<div id="header">
+			
+			<!-- 电池 信号 那部分 ： start -->
+			<div id="phone-title">
 				
+				<div id="phone-title-left">
+					<div class="signal"></div>
+					<div class="signal"></div>
+					<div class="signal"></div>
+					<div class="signal"></div>
+					<div class="no-signal"></div>
+					<div>中国移动 4G</div>
+				</div>
+				
+				<div id="phone-title-center">
+					12:00
+				</div>
+				<!--
+                	电池
+                -->
+				<div id="phone-title-right">
+					<div>87%</div>
+					<div>
+						<div></div>
+					</div>
+					<div></div>
+				</div>
+				
+			</div>
+			<!-- 电池 信号 那部分 ： End -->
+			
+			<div id="header">
+				<div id="title">
+					微信 (10)
+				</div>
 			</div>
 			
 			<div id="wrap">
-				123123
+				
+				
+				<div id="search">
+					<input />
+					<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+				</div>
+				
+				
+				
+				
+				<div id="lists">
+					
+					
+					
+					<div class="content">
+						
+						<div class="content-left">
+							<img src="img/photo/neusoft.png">
+						</div>
+						<div class="content-center">
+							<div class="username">Neusoft</div>
+							<div class="text">今天上课的内容是 Flex</div>
+						</div>
+						<div class="content-right">8:03</div>
+						
+					</div>
+					
+					<div class="content">
+						
+						<div class="content-left">
+							<img src="img/photo/三胖-01.jpg">
+						</div>
+						<div class="content-center">
+							<div class="username">金三胖</div>
+							<div class="text">听说朴槿惠要暗杀我，来呀互相伤害呀</div>
+						</div>
+						<div class="content-right">9:45</div>
+						
+					</div>
+					
+					<div class="content">
+						
+						<div class="content-left">
+							<img src="img/photo/女孩-01.jpeg">
+						</div>
+						<div class="content-center">
+							<div class="username">Neusoft</div>
+							<div class="text-radio">[语音]</div>
+						</div>
+						<div class="content-right">昨天</div>
+						
+					</div>
+					
+					<div class="content">
+						
+						<div class="content-left">
+							<img src="img/photo/川普-01.jpg">
+						</div>
+						<div class="content-center">
+							<div class="username">特朗普</div>
+							<div class="text">今晚我直播，请大家来捧场 @安倍 </div>
+						</div>
+						<div class="content-right">13:00</div>
+						
+					</div>
+					
+					<div class="content">
+						
+						<div class="content-left">
+							<img src="img/photo/情侣-01.jpg">
+						</div>
+						<div class="content-center">
+							<div class="username">我是90后</div>
+							<div class="text-radio">[语音]</div>
+						</div>
+						<div class="content-right">2017/5/27</div>
+						
+					</div>
+					
+					<div class="content">
+						
+						<div class="content-left">
+							<img src="img/photo/女孩-02.jpeg">
+						</div>
+						<div class="content-center">
+							<div class="username">海运学霸</div>
+							<div class="text">毕业了，希望大家都有个好的前程</div>
+						</div>
+						<div class="content-right">2017/4/21</div>
+						
+					</div>
+					
+					<div class="content">
+						
+						<div class="content-left">
+							<img src="img/photo/汉堡.jpg">
+						</div>
+						<div class="content-center">
+							<div class="username">汉堡王</div>
+							<div class="text">下课了下课了，下课了，我给你带一份汉堡？</div>
+						</div>
+						<div class="content-right">2017/1/31</div>
+						
+					</div>
+					<div class="content">
+						
+						<div class="content-left">
+							<img src="img/photo/男孩-01.jpg">
+						</div>
+						<div class="content-center">
+							<div class="username">海运小王子</div>
+							<div class="text">很喜欢学习 H5 知识</div>
+						</div>
+						<div class="content-right">2016/6/3</div>
+						
+					</div>
+					<div class="content">
+						
+						<div class="content-left">
+							<img src="img/photo/奥巴马-02.jpg">
+						</div>
+						<div class="content-center">
+							<div class="username">Obama</div>
+							<div class="text">川普这个大喷子</div>
+						</div>
+						<div class="content-right">2016/6/1</div>
+						
+					</div>
+			
+					
+					
+					
+				
+					
+				</div>
 			</div>
 			
 			<div id="menu">
 				
-				<div id="home" class="menu-div"></div>
-				<div id="friend" class="menu-div"></div>
-				<div id="moment" class="menu-div"></div>
-				<div id="setting" class="menu-div"></div>
+				<div id="home" class="menu-div">
+					<div class="glyphicon glyphicon-comment" aria-hidden="true"></div>
+				</div>
+				<div id="friend" class="menu-div">
+					<div class="glyphicon glyphicon-plus-sign" aria-hidden="true"></div>
+				</div>
+				<div id="moment" class="menu-div">
+					<div class="glyphicon glyphicon-cd" aria-hidden="true"></div>
+					
+				</div>
+				
+				<div id="setting" class="menu-div">
+					<div class="glyphicon glyphicon-user" aria-hidden="true"></div>
+				</div>
 				
 			</div>
 			

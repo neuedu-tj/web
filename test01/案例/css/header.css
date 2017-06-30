@@ -1,0 +1,10 @@
+#header {
+	background-image: linear-gradient(to bottom, #212121, #616161);
+	min-height: 30px;
+	text-align: center;
+}
+
+#title {
+	color: #F5F5F5;
+	line-height: 30px;
+}
