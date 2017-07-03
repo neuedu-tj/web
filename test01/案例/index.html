@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
+		<title>wechat - Home </title>
 		
 		
 		
@@ -51,11 +51,24 @@
 			</div>
 			<!-- 电池 信号 那部分 ： End -->
 			
-			<div id="header">
-				<div id="title">
-					微信 (10)
+			<!-- header start -->
+			<div id="header" class="header-font">
+				
+				<div id="header-control" >
+					<div></div>
+					<div>返回</div>
 				</div>
+				
+				<div id="msg" >
+					微信(10)
+				</div>
+				
+				<div id="function">
+					<div></div>
+				</div>
+				
 			</div>
+			<!-- header end -->
 			
 			<div id="wrap">
 				
@@ -92,7 +105,7 @@
 						</div>
 						<div class="content-center">
 							<div class="username">金三胖</div>
-							<div class="text">听说朴槿惠要暗杀我，来呀互相伤害呀</div>
+							<div class="text">试射导弹怎么啦，来呀互相伤害呀</div>
 						</div>
 						<div class="content-right">9:45</div>
 						
@@ -174,6 +187,7 @@
 						<div class="content-right">2016/6/3</div>
 						
 					</div>
+					
 					<div class="content">
 						
 						<div class="content-left">
@@ -186,6 +200,33 @@
 						<div class="content-right">2016/6/1</div>
 						
 					</div>
+					
+					<div class="content">
+						
+						<div class="content-left">
+							<img src="img/photo/elm.jpg">
+						</div>
+						<div class="content-center">
+							<div class="username">饿了么</div>
+							<div class="text">饿了别叫妈，叫饿了么</div>
+						</div>
+						<div class="content-right">2016/8/1</div>
+						
+					</div>
+					<div class="content">
+						
+						<div class="content-left">
+							<img src="img/photo/java.png">
+						</div>
+						<div class="content-center">
+							<div class="username">Java 22 Years</div>
+							<div class="text">我用20多年的岁月, 颠覆了人类历史的方方面面</div>
+						</div>
+						<div class="content-right">2016/4/12</div>
+						
+					</div>
+					
+					
 			
 					
 					
@@ -198,18 +239,31 @@
 			<div id="menu">
 				
 				<div id="home" class="menu-div">
-					<div class="glyphicon glyphicon-comment" aria-hidden="true"></div>
+					<div>
+						<img src="img/icon/menu/聊天-press.svg" style="transform: scale(1.2);" />
+					</div>
+					<div class="font-menu">微信</div>
 				</div>
 				<div id="friend" class="menu-div">
-					<div class="glyphicon glyphicon-plus-sign" aria-hidden="true"></div>
+					<div>
+						<img src="img/icon/menu/通讯录.svg" />
+					</div>
+					<div class="font-menu">通讯录</div>
+					
+					
 				</div>
 				<div id="moment" class="menu-div">
-					<div class="glyphicon glyphicon-cd" aria-hidden="true"></div>
-					
+					<div>
+						<img src="img/icon/menu/发现.svg" style="transform: scale(.9);" />
+					</div>
+					<div class="font-menu">发现</div>
 				</div>
 				
 				<div id="setting" class="menu-div">
-					<div class="glyphicon glyphicon-user" aria-hidden="true"></div>
+					<div>
+						<img src="img/icon/menu/me.svg" style="transform: scale(.9);"/>
+					</div>
+					<div class="font-menu">我</div>
 				</div>
 				
 			</div>
@@ -219,3 +273,7 @@
 		
 	</body>
 </html>
+
+
+<script type="text/javascript" src="jquery/jquery.js" ></script>
+<script type="text/javascript" src="js/menu.js" ></script>

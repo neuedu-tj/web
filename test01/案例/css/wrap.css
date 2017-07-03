@@ -2,7 +2,7 @@
 				/*background: #ADD8E6;*/
 				height: 100%;
 				flex-grow: 1;
-				
+				overflow-y: scroll;
 }
 
 
@@ -35,8 +35,9 @@
 	display: flex;
 	flex-flow: column;
 	overflow-y: scroll;
-	width: 97%;
+	width: 100%;
 	margin: 0 auto;
+	
 
 
 }
@@ -46,6 +47,8 @@
 	height: 64px;
 	background-color:#FAFAFA;
 	border-bottom: 1px gainsboro solid;
+	padding: 0px 4px 0px 4px;
+	
 	
 	display: flex;
 	flex-flow: row nowrap;
