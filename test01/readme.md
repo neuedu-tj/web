@@ -13,3 +13,6 @@ http://www.peise.net/
 
 ## web安全色
 http://www.bootcss.com/p/websafecolors/
+
+## 阿里巴巴矢量图库 - nice
+http://www.iconfont.cn/
