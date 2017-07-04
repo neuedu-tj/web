@@ -1,9 +1,12 @@
 $(function(){
 	
+	var orign ; 
 	
-	$('#moment').click(function(){
-		console.log("1")
-		$("#moment").toggleClass('src' , 'img/wechat/发现-active.svg');
+	$('.menu-div').click(function(){
+//		console.log("1")
+		orign = $(this)
+//		
+		console.log(orign)
 	});
 	
 })

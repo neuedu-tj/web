@@ -1,0 +1,29 @@
+#popup-menu{
+
+	height: 200px;
+	width: 150px;
+	background: #212121;
+	
+	position: absolute;
+	right:4px; top: 40px;
+
+	
+}
+#small-triangle{
+	background: #212121;
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	right: 8px; top: 35px;
+	transform: rotate(45deg);
+
+
+	
+}
+
+.block{
+	display: block;
+}
+.none{
+	display: none;
+}

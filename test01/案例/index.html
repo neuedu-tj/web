@@ -3,13 +3,15 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>wechat - Home </title>
-		
+		<!-- 如果在移动端显示, 需要此行代码  -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 		
 		<link rel="stylesheet" href="css/common.css" />
 		<link rel="stylesheet" href="css/container.css" />
 		<link rel="stylesheet" href="css/phone-title.css" />
 		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/header-menu.css"/>
+		
 		<link rel="stylesheet" type="text/css" href="css/wrap.css"/>
 		<link rel="stylesheet" href="css/menu.css" />
 		
@@ -64,7 +66,9 @@
 				</div>
 				
 				<div id="function">
-					<div></div>
+					<div id="add"></div>
+					<div id="small-triangle"></div>
+					<div id="popup-menu"></div>
 				</div>
 				
 			</div>
@@ -75,7 +79,6 @@
 				
 				<div id="search">
 					<input />
-					<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
 				</div>
 				
 				
@@ -242,13 +245,13 @@
 				
 				<div id="home" class="menu-div">
 					<div>
-						<img src="img/icon/menu/聊天-press.svg" style="transform: scale(1.2);" />
+						<img class="icon" src="img/icon/menu/聊天-press.svg" style="transform: scale(1.2);" />
 					</div>
 					<div class="font-menu">微信</div>
 				</div>
 				<div id="friend" class="menu-div">
 					<div>
-						<img src="img/icon/menu/通讯录.svg" />
+						<img class="icon" src="img/icon/menu/通讯录.svg" />
 					</div>
 					<div class="font-menu">通讯录</div>
 					
@@ -256,14 +259,14 @@
 				</div>
 				<div id="moment" class="menu-div">
 					<div>
-						<img src="img/icon/menu/发现.svg" style="transform: scale(.9);" />
+						<img class="icon" src="img/icon/menu/发现.svg" style="transform: scale(.9);" />
 					</div>
 					<div class="font-menu">发现</div>
 				</div>
 				
 				<div id="setting" class="menu-div">
 					<div>
-						<img src="img/icon/menu/me.svg" style="transform: scale(.9);"/>
+						<img class="icon" src="img/icon/menu/me.svg" style="transform: scale(.9);"/>
 					</div>
 					<div class="font-menu">我</div>
 				</div>
@@ -279,3 +282,4 @@
 
 <script type="text/javascript" src="jquery/jquery.js" ></script>
 <script type="text/javascript" src="js/menu.js" ></script>
+<script type="text/javascript" src="js/header-menu.js" ></script>

@@ -18,16 +18,23 @@
 }
 
 #search input {
+
 	height: 26px;
-	width: 92%;
+	width: 99%;
 	border: 1px solid gainsboro;
 	box-shadow: 0px 0px 10px gainsboro inset;
+	/* ALT+/ 可以具有自动完成功能   */
+	background: url(../img/icon/control/搜索.svg) no-repeat;
+	background-size: contain;
+	background-position: center;
+	
 }
 
-#search span{
-	opacity: .6;
-	transform: scale(1.3);
+#search input:focus {
+	background: none;
 }
+
+
 
 /* 消息列表的大层 */
 #lists {

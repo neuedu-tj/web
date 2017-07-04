@@ -49,24 +49,27 @@
 	
 }
 
+/* 加号层 */
 #function {
 	width: 33%;
 	
-	
+	/*  */
+	position: relative;
 	display: flex;
 	flex-flow: row ;
 	justify-content: flex-end;
 	align-items: center;
 	padding-right: 8px;
 	
-	
 }
 
-#function div:nth-child(1) {
+/* 加号  */
+#add {
 	height: 22px;width: 22px;
 	
 	background: url(../img/icon/control/加号.svg) no-repeat;
 	background-size: contain;
-}
+
+
 }
 

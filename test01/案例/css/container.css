@@ -11,6 +11,8 @@
 	display: flex;
 	flex-flow: column;
 	justify-content: space-between;
+	
+	
 	width: 100%;
 	position: fixed;
 }
