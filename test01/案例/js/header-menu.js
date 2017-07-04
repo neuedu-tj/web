@@ -2,7 +2,8 @@ $(function(){
 	
 	
 	$('#add').click(function(){
-		$('#popup-menu , #small-triangle').toggleClass("none")
+		console.log("111")
+		$("#popup-menu,#small-triangle").toggleClass("hidden block");
 	})
 	
 	

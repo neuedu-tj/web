@@ -23,18 +23,18 @@
 }
 /* 有信号 */
 .signal {
-	height: 8px;
-	width: 8px;
+	height: 7px;
+	width: 7px;
 	border-radius: 50%;
 	border: 1px white solid;
 	background-color: white;
-	margin: 2px;
+	margin: 1px;
 }
 
 /* 没信号 */
 .no-signal {
-	height: 8px;
-	width: 8px;
+	height: 7px;
+	width: 7px;
 	border-radius: 50%;
 	border: 1px white solid;
 	margin: 2px;

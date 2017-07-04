@@ -1,12 +1,13 @@
 #popup-menu{
 
 	height: 200px;
-	width: 150px;
+	width: 160px;
 	background: #212121;
 	
 	position: absolute;
 	right:4px; top: 40px;
-
+	
+	visibility: hidden;
 	
 }
 #small-triangle{
@@ -17,13 +18,14 @@
 	right: 8px; top: 35px;
 	transform: rotate(45deg);
 
-
+	visibility: hidden;
 	
 }
 
-.block{
-	display: block;
+.hidden{
+	visibility: hidden;
 }
-.none{
-	display: none;
+
+.visible{
+	visibility: visible;
 }

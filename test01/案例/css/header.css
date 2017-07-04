@@ -9,6 +9,8 @@
 	flex-flow: row nowrap;
 	justify-content:space-between;
 	
+	
+	
 }
 
 
@@ -17,6 +19,7 @@
 .header-font {
 	color: white;
 	line-height: 30px;
+	font-weight: 700;
 }
 
 
@@ -31,7 +34,7 @@
 	flex-flow: row nowrap;
 	justify-content:flex-start;
 	align-items: center;
-	
+	font-weight: 700;
 	
 	
 }
@@ -40,12 +43,14 @@
 	height:18px; width: 18px;
 	background: url(../img/icon/control/返回.svg) no-repeat;
 	background-size: contain;
+	
 }
 
 
 #msg {
 	width: 34%;
 	line-height: 30px;
+	font-weight: 700;
 	
 }
 

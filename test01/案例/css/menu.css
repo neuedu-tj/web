@@ -1,5 +1,5 @@
 #menu {
-	background-color: whitesmoke;
+	/*background-color: whitesmoke;*/
 	height: 60px;
 	display: flex;
 	flex-flow: row nowrap;
@@ -24,7 +24,8 @@
 
 .font-menu {
 	margin-top: 4px;
-	font-family: "微软雅黑";font-weight: 100;
+	font-family: "微软雅黑";
+	font-weight: 200;
 	font-size: 8px;
 }
 
