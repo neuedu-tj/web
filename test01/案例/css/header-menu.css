@@ -2,7 +2,7 @@
 
 	height: 190px;
 	width: 140px;
-	background: #212121;
+	background: #424242;
 	position: absolute;
 	right:4px; top: 40px;
 	
@@ -15,7 +15,7 @@
 	
 }
 #small-triangle{
-	background: #212121;
+	background: #424242;
 	position: absolute;
 	height: 20px;
 	width: 20px;
