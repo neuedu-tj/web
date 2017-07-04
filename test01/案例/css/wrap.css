@@ -79,7 +79,7 @@
 	padding-left: 8px;
 	display: flex;
 	flex-flow: column;
-	justify-content: center;
+	justify-content: space-around;
 
 	
 	
