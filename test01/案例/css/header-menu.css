@@ -1,13 +1,17 @@
 #popup-menu{
 
 	height: 200px;
-	width: 160px;
+	width: 140px;
 	background: #212121;
-	
 	position: absolute;
 	right:4px; top: 40px;
 	
-	visibility: hidden;
+	
+	
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-around;
+	align-items: center;
 	
 }
 #small-triangle{
@@ -17,8 +21,7 @@
 	width: 20px;
 	right: 8px; top: 35px;
 	transform: rotate(45deg);
-
-	visibility: hidden;
+	
 	
 }
 
@@ -28,4 +31,29 @@
 
 .visible{
 	visibility: visible;
+}
+
+.pupup-menu-content{
+	
+	width: 90%;
+	border-bottom: 1px solid #424242;
+	display: flex;
+	flex-flow: row nowrap;
+	
+	padding: 6px 0px 6px 0px ;
+	
+}
+
+.pupup-menu-content div{
+	padding: 0px 10px 0px 10px;
+}
+
+.pupup-menu-content div:nth-child(2){
+	display: flex;
+	align-items: center;
+}
+
+.pupup-menu-content-icon img{
+	height: 22px;
+	width: 22px;
 }
