@@ -1,6 +1,6 @@
 #popup-menu{
 
-	height: 200px;
+	height: 190px;
 	width: 140px;
 	background: #212121;
 	position: absolute;
@@ -43,6 +43,15 @@
 	padding: 6px 0px 6px 0px ;
 	
 }
+
+.pupup-menu-content:last-child{
+	
+
+	border-bottom: none;
+	
+	
+}
+
 
 .pupup-menu-content div{
 	padding: 0px 10px 0px 10px;
