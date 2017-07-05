@@ -25,31 +25,22 @@
 	
 }
 
-.hidden{
-	visibility: hidden;
-}
 
-.visible{
-	visibility: visible;
-}
-
+/* 弹出层  */
 .pupup-menu-content{
 	
 	width: 90%;
 	border-bottom: 1px solid #616161;
 	display: flex;
 	flex-flow: row nowrap;
-	
+
 	padding: 6px 0px 6px 0px ;
 	
 }
 
+/* 最后一个弹出层 去掉底部 边框  */
 .pupup-menu-content:last-child{
-	
-
 	border-bottom: none;
-	
-	
 }
 
 
