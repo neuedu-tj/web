@@ -1,5 +1,5 @@
 $(function(){
-	
+		
 
 	/* 控制切换 */	
 	$(".menu-div").click(function(){
@@ -13,9 +13,10 @@ $(function(){
 		var iocnPress = $(this).data("icon-press")
 		$(this).find("img").attr("src" , iocnPress)
 		
-		/* 获取 中间部分的层 */
 		
 		
+		/* 获取 中间部分的层   切换页面 */
+
 		var target = $(this).data("target")
 		$("#wrap-chat , #wrap-add-friend , #wrap-discovery , #wrap-me").each(function(){
 			
@@ -28,6 +29,10 @@ $(function(){
 			}
 		
 		})
+		
+		
+		$("#moments").hide();
+		
 		
 	});
 	

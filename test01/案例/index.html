@@ -19,6 +19,8 @@
 		<link rel="stylesheet" type="text/css" href="css/wrap-discovery.css"/>
 		<link rel="stylesheet" type="text/css" href="css/wrap-me.css"/>
 		
+		<link rel="stylesheet" type="text/css" href="css/moments.css"/>
+		
 		<link rel="stylesheet" href="css/menu.css" />
 		
 		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
@@ -98,9 +100,6 @@
 				
 			</div>
 			<!-- header end -->
-			
-			
-			
 			
 			<div id="wrap-chat">
 				
@@ -295,16 +294,13 @@
 				</div>
 			</div>
 			
-			
 			<div id="wrap-add-friend"></div>
-			
-			
 			
 			<div id="wrap-discovery">
 				
 				
 				<div class="groups">
-					<div class="group-item">
+					<div class="group-item" id="moment">
 						<div class="group-item-left">
 							<img src="img/icon/dicovery/朋友圈.svg" />
 						</div>
@@ -407,24 +403,27 @@
 				
 				
 			</div>
-			
-			
-			
-			
+		
 			<div id="wrap-me"></div>
-			
-			
-			
-			
+
+			<!-- 朋友圈  start -->
+			<div id="moments">
+				<div id="huge-screen"></div>
+				<div id="user-photo">2</div>
+				<div id="moments-list">3</div>
+			</div>
+			<!-- 朋友圈  end -->
+
+
 			<div id="menu">
 				
-				<div id="home" class="menu-div" data-icon-normal="img/icon/menu/聊天.svg" data-icon-press="img/icon/menu/聊天-press.svg" data-target="wrap-chat">
+				<div  class="menu-div" data-icon-normal="img/icon/menu/聊天.svg" data-icon-press="img/icon/menu/聊天-press.svg" data-target="wrap-chat">
 					<div>
 						<img class="icon" src="img/icon/menu/聊天-press.svg" style="transform: scale(1.2);" />
 					</div>
 					<div class="font-menu">微信</div>
 				</div>
-				<div id="friend" class="menu-div" data-icon-normal="img/icon/menu/通讯录.svg" data-icon-press="img/icon/menu/通讯录-press.svg" data-target="wrap-add-friend">
+				<div  class="menu-div" data-icon-normal="img/icon/menu/通讯录.svg" data-icon-press="img/icon/menu/通讯录-press.svg" data-target="wrap-add-friend">
 					<div>
 						<img class="icon" src="img/icon/menu/通讯录.svg" />
 					</div>
@@ -432,13 +431,13 @@
 					
 					
 				</div>
-				<div id="moment" class="menu-div" data-icon-normal="img/icon/menu/发现.svg" data-icon-press="img/icon/menu/发现-press.svg" data-target="wrap-discovery">
+				<div class="menu-div" data-icon-normal="img/icon/menu/发现.svg" data-icon-press="img/icon/menu/发现-press.svg" data-target="wrap-discovery">
 					<div>
 						<img class="icon" src="img/icon/menu/发现.svg" style="transform: scale(.9);" />
 					</div>
 					<div class="font-menu">发现</div>
 				</div>
-				<div id="setting" class="menu-div"data-icon-normal="img/icon/menu/me.svg" data-icon-press="img/icon/menu/me-press.svg" data-target="wrap-me">
+				<div class="menu-div"data-icon-normal="img/icon/menu/me.svg" data-icon-press="img/icon/menu/me-press.svg" data-target="wrap-me">
 					<div>
 						<img class="icon" src="img/icon/menu/me.svg" style="transform: scale(.9);"/>
 					</div>
@@ -459,3 +458,5 @@
 <script type="text/javascript" src="js/menu-bottom.js" ></script>
 
 <script type="text/javascript" src="js/menu-header-popup.js" ></script>
+
+<script type="text/javascript" src="js/moments.js" ></script>
