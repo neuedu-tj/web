@@ -1,7 +1,70 @@
 #wrap-discovery {
-				background: #4DB6AC;
-				height: 100%;
-				flex-grow: 1;
-				overflow-y: scroll;
-				display: none;
+	background-color: whitesmoke;
+	height: 100%;
+	flex-grow: 1;
+	overflow-y: scroll;
+	display: none;
 }
+
+.groups {
+	background-color: white;
+	width: 100%;
+	margin-top: 16px;	
+
+}
+
+.groups:last-child {
+	border-bottom: none;
+}
+
+.group-item{
+	width: 94%; height: 44px;
+	margin: 0 auto ;
+	
+	
+	display: flex; 
+	justify-content: space-between;
+	
+	border-bottom: 1px solid #EEEEEE;
+	
+}
+
+.group-item-left {
+
+	width: 40px;height: 40px;
+}
+
+.group-item-left img {
+
+	margin: 7px;
+	width: 24px;height: 24px;
+}
+
+.group-item-center {
+
+	flex-grow: 1;
+	color: #616161;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	line-height: 40px;
+	padding-left: 10px;
+}
+
+
+.group-item-right {
+
+	width: 40px;height: 40px;
+	background: url(../img/icon/material/右箭头.svg)  no-repeat;
+	background-position: center;
+	background-size: contain;
+	transform: scale(.5);
+}
+
+.group-item-right img{
+	margin: 10px;
+	width: 20px;height: 20px;
+	
+}
+
+
+

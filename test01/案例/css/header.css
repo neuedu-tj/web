@@ -41,7 +41,7 @@
 
 #header-control div:nth-child(1) {
 	height:18px; width: 18px;
-	background: url(../img/icon/control/返回.svg) no-repeat;
+	background: url(../img/icon/material/返回.svg) no-repeat;
 	background-size: contain;
 	
 }
@@ -72,7 +72,7 @@
 #add {
 	height: 22px;width: 22px;
 	
-	background: url(../img/icon/control/加号.svg) no-repeat;
+	background: url(../img/icon/material/加号.svg) no-repeat;
 	background-size: contain;
 
 

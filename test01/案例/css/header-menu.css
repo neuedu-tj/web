@@ -6,7 +6,7 @@
 	position: absolute;
 	right:4px; top: 40px;
 	
-	
+	z-index: 1;/* 保持在上边 */
 	
 	display: flex;
 	flex-flow: column nowrap;
@@ -15,6 +15,7 @@
 	
 }
 #small-triangle{
+	
 	background: #424242;
 	position: absolute;
 	height: 20px;
