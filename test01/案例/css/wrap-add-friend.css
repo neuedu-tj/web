@@ -1,0 +1,7 @@
+#wrap-add-friend {
+				background: #81D4FA;
+				height: 100%;
+				flex-grow: 1;
+				overflow-y: scroll;
+				display: none;
+}

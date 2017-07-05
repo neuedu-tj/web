@@ -8,11 +8,17 @@
 		
 		<link rel="stylesheet" href="css/common.css" />
 		<link rel="stylesheet" href="css/container.css" />
+		
 		<link rel="stylesheet" href="css/phone-title.css" />
+		
 		<link rel="stylesheet" type="text/css" href="css/header.css"/>
 		<link rel="stylesheet" type="text/css" href="css/header-menu.css"/>
 		
-		<link rel="stylesheet" type="text/css" href="css/wrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/wrap-chat.css"/>
+		<link rel="stylesheet" type="text/css" href="css/wrap-add-friend.css"/>
+		<link rel="stylesheet" type="text/css" href="css/wrap-discovery.css"/>
+		<link rel="stylesheet" type="text/css" href="css/wrap-me.css"/>
+		
 		<link rel="stylesheet" href="css/menu.css" />
 		
 		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
@@ -93,7 +99,10 @@
 			</div>
 			<!-- header end -->
 			
-			<div id="wrap">
+			
+			
+			
+			<div id="wrap-chat">
 				
 				
 				<div id="search">
@@ -286,15 +295,23 @@
 				</div>
 			</div>
 			
+			
+			<div id="wrap-add-friend"></div>
+			<div id="wrap-discovery"></div>
+			<div id="wrap-me"></div>
+			
+			
+			
+			
 			<div id="menu">
 				
-				<div id="home" class="menu-div">
+				<div id="home" class="menu-div" data-icon-normal="img/icon/menu/聊天.svg" data-icon-press="img/icon/menu/聊天-press.svg" data-target="wrap-chat">
 					<div>
 						<img class="icon" src="img/icon/menu/聊天-press.svg" style="transform: scale(1.2);" />
 					</div>
 					<div class="font-menu">微信</div>
 				</div>
-				<div id="friend" class="menu-div">
+				<div id="friend" class="menu-div" data-icon-normal="img/icon/menu/通讯录.svg" data-icon-press="img/icon/menu/通讯录-press.svg" data-target="wrap-add-friend">
 					<div>
 						<img class="icon" src="img/icon/menu/通讯录.svg" />
 					</div>
@@ -302,14 +319,13 @@
 					
 					
 				</div>
-				<div id="moment" class="menu-div">
+				<div id="moment" class="menu-div" data-icon-normal="img/icon/menu/发现.svg" data-icon-press="img/icon/menu/发现-press.svg" data-target="wrap-discovery">
 					<div>
 						<img class="icon" src="img/icon/menu/发现.svg" style="transform: scale(.9);" />
 					</div>
 					<div class="font-menu">发现</div>
 				</div>
-				
-				<div id="setting" class="menu-div">
+				<div id="setting" class="menu-div"data-icon-normal="img/icon/menu/me.svg" data-icon-press="img/icon/menu/me-press.svg" data-target="wrap-me">
 					<div>
 						<img class="icon" src="img/icon/menu/me.svg" style="transform: scale(.9);"/>
 					</div>

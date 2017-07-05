@@ -1,0 +1,7 @@
+#wrap-discovery {
+				background: #4DB6AC;
+				height: 100%;
+				flex-grow: 1;
+				overflow-y: scroll;
+				display: none;
+}
