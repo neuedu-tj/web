@@ -11,6 +11,9 @@ $(function(){
 	})
 	/*  控制顶层弹出菜单层 : end  */
 	
+	$("#popup-menu").click(function(){
+		$("#popup-menu , #small-triangle").hide();
+	});
 	
 	
 	
