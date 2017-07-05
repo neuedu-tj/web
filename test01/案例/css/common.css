@@ -12,11 +12,3 @@ html,body {
 	display:none;
 }
 
-::-moz-scrollbar {
-	display:none;
-}
-::-ms-scrollbar {
-	display:none;
-}
-
-
