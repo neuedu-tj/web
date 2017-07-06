@@ -101,12 +101,14 @@
 }
 .moment-content-text {
 	width: 100%;
-
+	font-weight: 400; 
+	color: #212121;
 }
 .moment-content-imgs {
 	/*z-index: -1;*/
 	margin: 6px 0px 6px 0px;
 	height: 120px; /*width: 60%;*/
+	vertical-align: middle;
 	
 	/*background-repeat: no-repeat;
 	background-position: center;
@@ -130,8 +132,8 @@
 	
 }
 .moment-function-time {
-	font-weight: 100;
-	font-size: 8px;
+	font-weight: 300;
+	font-size: 10px;
 	width: 100px;
 	color: gray;
 }
