@@ -11,11 +11,7 @@ $(function(){
 	
 	/* 图片初始化 */
 	$(".moment-content-imgs div").each(function(){
-		var imgs = $(this).data("img")
-		console.log("url('"+imgs+"')")
-		
-			
-			$(this).css('background-image' , "url('"+imgs+"')");
+		 	
 			
 	
 		
