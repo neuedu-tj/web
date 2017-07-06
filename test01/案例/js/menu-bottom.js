@@ -20,17 +20,15 @@ $(function(){
 		var target = $(this).data("target")
 		$("#wrap-chat , #wrap-add-friend , #wrap-discovery , #wrap-me").each(function(){
 			
-			if( $(this)[0].id==target){
-				
+			if( $(this)[0].id==target ) {
 				$(this).show(200);
-				
-			}else {
+			} else {
 				$(this).hide();
 			}
 		
 		})
 		
-		
+		/* 如果显示朋友圈时 , 点击了下方4个菜单  ，在 wrap-x 切换之前   要把朋友圈隐藏   */
 		$("#moments").hide();
 		
 		

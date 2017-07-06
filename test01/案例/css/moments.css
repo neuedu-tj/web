@@ -16,7 +16,7 @@
 
 
 #user{
-	height: 72px; width: 80%;
+	height: 72px; width: 90%;
 	
 	display: flex;
 	flex-flow: row nowrap;
@@ -36,6 +36,7 @@
 	display: flex;
 	align-items: center;
 	
+	letter-spacing: 3px;
 	
 }
 
@@ -55,11 +56,90 @@
 }
 
 #moments-list {
-	background-color: #008B8B;
-	border: 1px solid red;
+	/*background-color: #008B8B;*/
+	/*border: 1px solid red;*/
 	
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: flex-start;
 	
+}
+
+.moment-content {
+	width: 100%;
+	min-height: 80px;
+	border-bottom: 1px solid #EEEEEE;
+	padding: 10px 0px 14px 0px;
+	
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center; 
+	
+}
+.moment-content-left {
+	width: 90px;
+	/*border: 1px solid green;*/
+	display: flex;
+	justify-content: flex-end;
+}
+.moment-content-left img {
+	margin-right: 6px;
+	height:50px ; width: 50px;
+	border-radius: 6%;
+	/*border: 1px solid green;*/
+}
+
+.moment-content-right {
+	flex-grow: 1;
+	/*border: 1px solid darkblue;*/
+	padding: 0px 10px 0px 4px;
+}
+.moment-content-username{
+	width: 100%;
+	font-weight: 700; color: #286090;
+	margin: 0px 0px 4px 0px;
+}
+.moment-content-text {
+	width: 100%;
+
+}
+.moment-content-imgs {
+	/*z-index: -1;*/
+	margin: 6px 0px 6px 0px;
+	height: 120px; /*width: 60%;*/
+	
+	/*background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% auto;*/
+	
+}
+
+.moment-content-imgs img {
+	max-width: 100%;
+	max-height: 100%;
+	
+	
+}
+
+
+.moment-function {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	
+	
+}
+.moment-function-time {
+	font-weight: 100;
+	font-size: 8px;
+	width: 100px;
+	color: gray;
+}
+
+.moment-function-right{
+	width: 20px;
+	background: url(../img/icon/moments/回复区域.svg) no-repeat;
+	background-position: center;
+	background-size: cover;
+	opacity: .5;
 }
