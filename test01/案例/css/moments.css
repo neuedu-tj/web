@@ -1,5 +1,5 @@
 #moments {
-	background: #FFA726;
+	/*background: #FFA726;*/
 	height: 100%;
 	flex-grow: 1;
 	overflow-y: scroll;
@@ -10,6 +10,56 @@
 	width: 100%;
 	height: 200px;
 	background: url(../img/images/porsche-panamera-image.jpg) no-repeat;
-	
+	background-size :cover;
+	background-position: center;
+}
 
+
+#user{
+	height: 72px; width: 80%;
+	
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-end;
+	margin: 0 auto;
+	position: relative; 
+	top: 150px; 
+	
+}
+
+#user-name{
+	padding-right: 18px;
+	
+	font-size: 16px;
+	color: whitesmoke;
+	
+	display: flex;
+	align-items: center;
+	
+	
+}
+
+#user-photo {
+	border: 1px solid #b6b8c3;
+	box-shadow: 0px 0px 5px whitesmoke inset;
+}
+#user-photo img{
+	height: 70px; width: 70px;
+}
+
+
+
+#notification{
+	min-height: 40px;
+	max-height: 70px;
+}
+
+#moments-list {
+	background-color: #008B8B;
+	border: 1px solid red;
+	
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	
 }
