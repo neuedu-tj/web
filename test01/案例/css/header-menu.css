@@ -14,18 +14,16 @@
 	align-items: center;
 	
 }
-#small-triangle{
-	
-	background: #424242;
-	position: absolute;
-	height: 20px;
-	width: 20px;
-	right: 8px; top: 35px;
-	transform: rotate(45deg);
-	
-	
-}
 
+#small-triangle-up {
+	position: relative;
+	top: -10px; right: -54px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #424242;
+}
 
 /* 弹出层  */
 .pupup-menu-content{
