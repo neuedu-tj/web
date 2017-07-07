@@ -173,7 +173,7 @@
 	display: flex; flex-flow: row wrap; align-items: center;
 }
 .name{
-	font-size: 10px;
+	font-size: 12px;
 	color: #286090;
 	font-weight: 700;
 }
@@ -197,14 +197,14 @@
 }
 .comment-name {
 	margin-left: 4px;
-	font-size: 10px;
+	font-size: 12px;
 	color: #286090;
 	font-weight: 700;
 	
 }
 .comment-content {
 	padding-left: 6px ;
-	font-size: 10px;
+	font-size: 12px;
 	color: #424242;
 	font-weight: 500;
 	
