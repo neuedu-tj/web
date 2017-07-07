@@ -10,13 +10,24 @@ $(function(){
 	
 	
 	/* 图片初始化 */
-	$(".moment-content-imgs div").each(function(){
-		 	
+	$(".moment-content-imgs").each(function(){
+		
+		var imgs = $(this).find(".user-imgs");
+		
+		if(imgs.length==1) {
+			imgs.css("background-image" , "url('"+imgs.data("img")+"')")
+			imgs.addClass("user-imgs-single");
+		} else if( imgs.length>1 ) {
+
+			imgs.each(function( i , img ){
+				$(img).css("background-image" , "url('"+$(img).data("img")+"')")
+				$(img).addClass("user-imgs-multi");
+			});
+		
+		} else {
 			
-	
-		
-		
-		
+		}
+
 	});
 
 

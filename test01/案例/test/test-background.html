@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<style>
+			
+			#d1 {
+				height: 100px ; width: 100px;
+				
+			}
+			
+		</style>
+		
+	</head>
+	<body>
+		
+		<div id="d1" data-img="../../css/03.div/02.背景/01.背景图片/bootstrap-logo.png">
+			
+			
+			
+		</div>
+		
+		
+	</body>
+</html>
+<script type="text/javascript" src="../jquery/jquery.js" ></script>
+
+<script>
+
+$(function(){
+	var url = $("#d1").data("img");
+	console.log("url :" + url );
+	$("#d1").css("background-image" , "url('"+url+"')"); 
+	
+});
+
+</script>
