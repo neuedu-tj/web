@@ -6,8 +6,8 @@ $(function(){
 		$("#moments").show(200)
 	});
 	
+	/*  先让回复区域 都隐藏   */
 	$(".moment-function-control").hide();
-	
 	
 	$(".moment-function-right").click(function(){
 		var control = $(this).find(".moment-function-control");
