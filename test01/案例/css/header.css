@@ -2,19 +2,11 @@
 	background-image: linear-gradient(to bottom, #212121, #616161);
 	min-height: 30px;
 	text-align: center;
-	
-	
-	
+
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content:space-between;
-	
-	
-	
 }
-
-
-
 
 .header-font {
 	color: white;

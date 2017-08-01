@@ -6,6 +6,13 @@ $(function(){
 		$("#moments").show(200)
 	});
 	
+	$(".moment-function-control").hide();
+	
+	
+	$(".moment-function-right").click(function(){
+		var control = $(this).find(".moment-function-control");
+		$(control).toggle(100)
+	});
 	
 	
 	
@@ -15,12 +22,12 @@ $(function(){
 		var imgs = $(this).find(".user-imgs");
 		
 		if(imgs.length==1) {
-			imgs.css("background-image" , "url('"+imgs.data("img")+"')")
+			imgs.css("background-image" , "url('"+imgs.data("img")+"')");
 			imgs.addClass("user-imgs-single");
 		} else if( imgs.length>1 ) {
 
 			imgs.each(function( i , img ){
-				$(img).css("background-image" , "url('"+$(img).data("img")+"')")
+				$(img).css("background-image" , "url('"+$(img).data("img")+"')");
 				$(img).addClass("user-imgs-multi");
 			});
 		

@@ -1,6 +1,7 @@
 #wrap-chat {
 				/*background: #ADD8E6;*/
 				height: 100%;
+				/*height: 400px;*/
 				flex-grow: 1;
 				overflow-y: scroll;
 }
@@ -25,10 +26,13 @@
 	box-shadow: 0px 0px 10px gainsboro inset;
 	/* ALT+/ 可以具有自动完成功能   */
 	background: url(../img/icon/control/搜索.svg) no-repeat;
-	background-size: contain;
+	background-size: 16px;
 	background-position: center;
 	
+	
+	
 }
+
 
 #search input:focus {
 	background: none;
@@ -67,6 +71,7 @@
 
 .content-left {
 	height: 52px; width: 52px;
+	position: relative;
 	
 	
 }
@@ -81,7 +86,10 @@
 	display: flex;
 	flex-flow: column;
 	justify-content: space-around;
-
+	
+	/* 强制不换行 */
+	white-space: nowrap;
+	overflow: hidden;
 	
 	
 }

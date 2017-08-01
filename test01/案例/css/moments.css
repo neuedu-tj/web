@@ -143,7 +143,10 @@
 	background: url(../img/icon/moments/回复区域.svg) no-repeat;
 	background-position: center;
 	background-size: cover;
-	opacity: .5;
+	
+
+	
+	position: relative;
 }
 
 
@@ -183,6 +186,7 @@
 }*/
 
 
+/* 留言内容部分 : start */
 .comments {
 	min-height: 22px;
 }
@@ -220,5 +224,82 @@
     border-right: 6px solid transparent;
     border-bottom: 5px solid #EEEEEE;
 }
+/* 留言内容部分 : end */
 
 
+/*:active .moment-function-control{
+	display: none;
+}*/
+
+
+
+/* 留言 点赞 的弹出按钮部分 : start  */
+
+.moment-function-control {
+	
+	background: #424242;
+	height: 30px;
+	width: 140px;
+	
+	position: absolute;
+	right: 26px; top: -10px;
+	
+	/*opacity: .8;*/
+	
+	vertical-align: middle;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	color: white;
+	font-size: 10px;
+
+	border-radius: 6px;
+	
+}
+
+
+.moment-function-control div:nth-child(n) {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	height: 20px;
+	width: 65px;
+
+}
+
+.moment-function-control div:nth-child(1) div:nth-child(1) {
+	background: url(../img/icon/moments/赞-02.svg) no-repeat;
+	height: 18px;
+	width: 18px;
+	background-position: center;
+	background-size: contain;
+
+}
+.moment-function-control div:nth-child(1) div:nth-child(2) {
+
+	height: 20px;
+	width: 20px;
+
+
+}
+
+.moment-function-control div:nth-child(2) div:nth-child(1) {
+	background: url(../img/icon/moments/评论.svg) no-repeat;
+	height:18px;
+	width: 18px;
+	background-position: center;
+	background-size: contain;
+}
+.moment-function-control div:nth-child(2) div:nth-child(2) {
+
+	height: 20px;
+	width: 30px;
+
+
+}
+
+
+/* 留言 点赞 的弹出按钮部分 : end  */
